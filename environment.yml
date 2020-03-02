@@ -1,0 +1,18 @@
+name: ea-workshop
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - tensorflow
+  - ipykernel
+  - pip:
+    - matplotlib==3.0.0   
+    - numpy==1.16.1
+    - pandas==0.24.1
+    - sklearn
+    - Pillow==6.1
+    - jupyter==1.0.0
+    - seaborn
+    - azureml-sdk
+    - azure-storage-blob==0.37.1
